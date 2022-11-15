@@ -20,6 +20,8 @@ create table harvrest (
 	constraint hfkey2 foreign key(NumW) references wine(NumW)
 )
 
+select * from producer
+
 select * from producer order by last_name, first_name
 
 select* from producer where region = 'Sousse'
